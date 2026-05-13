@@ -312,7 +312,7 @@ class Transformer(nn.Module):
         import spacy
         
         # NOTE: Provide your google drive ID where the full '.pt' checkpoint is hosted
-        file_id = "1DVCPsIZYwQmFUeBNoJS0hYNloD5lcBaZD" 
+        file_id = "1DVCPsIZYwQmFUeBNoJS0hYNloD5lcBaZ" 
         ckpt_path = "best_model.pt"
 
         if file_id != "YOUR_GDRIVE_FILE_ID" and not os.path.exists(ckpt_path):
