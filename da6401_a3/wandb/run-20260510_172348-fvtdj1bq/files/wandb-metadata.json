@@ -1,0 +1,36 @@
+{
+  "os": "Windows-10-10.0.26200-SP0",
+  "python": "CPython 3.10.11",
+  "startedAt": "2026-05-10T11:53:48.750238Z",
+  "program": "D:\\IITM\\da6401_a3\\runs\\q2_3_attention_rollout.py",
+  "codePath": "runs\\q2_3_attention_rollout.py",
+  "codePathLocal": "runs\\q2_3_attention_rollout.py",
+  "email": "saisvanik2121@gmail.com",
+  "root": "D:\\IITM\\da6401_a3",
+  "host": "abhi",
+  "executable": "C:\\Users\\Abhi\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "569760542720",
+      "used": "414932295680"
+    }
+  },
+  "memory": {
+    "total": "33615630336"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal": "8585740288",
+      "cudaCores": 3072,
+      "architecture": "Ada",
+      "uuid": "GPU-ad3bcefe-c273-3306-b92f-89b68886d6af"
+    }
+  ],
+  "cudaVersion": "13.2",
+  "writerId": "kjlnk8idu2w8lc9yrmm5p0zt3038xhqi"
+}

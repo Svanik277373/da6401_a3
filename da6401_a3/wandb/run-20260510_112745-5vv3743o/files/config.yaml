@@ -1,0 +1,80 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            nuvc15gpzsqebduduwv01b5j2vji94e9:
+                codePath: runs\q2_1_noam_vs_fixed.py
+                codePathLocal: runs\q2_1_noam_vs_fixed.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.2"
+                disk:
+                    /:
+                        total: "569760542720"
+                        used: "413764681728"
+                email: saisvanik2121@gmail.com
+                executable: C:\Users\Abhi\AppData\Local\Programs\Python\Python310\python.exe
+                gpu: NVIDIA GeForce RTX 4060 Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060 Laptop GPU
+                      uuid: GPU-ad3bcefe-c273-3306-b92f-89b68886d6af
+                host: abhi
+                memory:
+                    total: "33615630336"
+                os: Windows-10-10.0.26200-SP0
+                program: D:\IITM\da6401_a3\runs\q2_1_noam_vs_fixed.py
+                python: CPython 3.10.11
+                root: D:\IITM\da6401_a3
+                startedAt: "2026-05-10T05:57:45.722608Z"
+                writerId: nuvc15gpzsqebduduwv01b5j2vji94e9
+        m: []
+        python_version: 3.10.11
+        t:
+            "1":
+                - 1
+                - 33
+            "2":
+                - 1
+                - 33
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.11
+            "5": 0.25.1
+            "8":
+                - 3
+            "10":
+                - 20
+            "12": 0.25.1
+            "13": windows-amd64
+"N":
+    value: 3
+batch_size:
+    value: 128
+d_ff:
+    value: 512
+d_model:
+    value: 256
+dropout:
+    value: 0.1
+fixed_lr:
+    value: 0.0001
+label_smoothing:
+    value: 0.1
+num_epochs:
+    value: 15
+num_heads:
+    value: 8
+use_learned_pos:
+    value: false
+use_noam:
+    value: true
+use_scaling:
+    value: true
+warmup_steps:
+    value: 4000

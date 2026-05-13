@@ -1,0 +1,1 @@
+{"_runtime":324,"_timestamp":1.7783858116846278e+09,"epoch":14,"train/perplexity":10.75746862073909,"val/perplexity":13.820417613386685,"_wandb":{"runtime":324},"model/n_params":9053701,"val/loss":2.626147035928314,"_step":46,"train/loss":2.375600268760441,"lr":0.0008414623211354297,"test/bleu":38.65404217223103}

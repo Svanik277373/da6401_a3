@@ -1,0 +1,1 @@
+{"train/loss":1.0567503908876188,"_step":61,"val/perplexity":4.902610279299021,"lr":0.0008414623211354297,"test/bleu":37.90932983686516,"_wandb":{"runtime":314},"model/n_params":8988165,"epoch":14,"val/pred_confidence":0.6281343327995152,"train/perplexity":2.877006635285136,"_runtime":314,"val/loss":1.5897677733379718,"_timestamp":1.778386516863059e+09}

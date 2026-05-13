@@ -1,0 +1,36 @@
+Loading Multi30k …
+  src_vocab=7853  tgt_vocab=5893
+  parameters: 8,988,165
+That's 100 lines that end in a tokenized period ('.')                                                                                                                             
+  Epoch 000  train_loss=7.6974 train_acc=0.1239  val_loss=6.3605 val_acc=0.2102  lr=5.63e-05
+    ✓ best checkpoint (val_loss=6.3605)
+  Epoch 001  train_loss=5.5504 train_acc=0.2739  val_loss=4.8849 val_acc=0.3196  lr=1.12e-04
+    ✓ best checkpoint (val_loss=4.8849)
+  Epoch 002  train_loss=4.6947 train_acc=0.3595  val_loss=4.3419 val_acc=0.4035  lr=1.68e-04
+    ✓ best checkpoint (val_loss=4.3419)
+  Epoch 003  train_loss=4.2331 train_acc=0.4257  val_loss=3.8665 val_acc=0.4848  lr=2.25e-04
+    ✓ best checkpoint (val_loss=3.8665)
+  Epoch 004  train_loss=3.8128 train_acc=0.4949  val_loss=3.4975 val_acc=0.5424  lr=2.81e-04
+    ✓ best checkpoint (val_loss=3.4975)
+  Epoch 005  train_loss=3.4649 train_acc=0.5479  val_loss=3.2181 val_acc=0.5899  lr=3.37e-04
+    ✓ best checkpoint (val_loss=3.2181)
+  Epoch 006  train_loss=3.1887 train_acc=0.5914  val_loss=3.0421 val_acc=0.6166  lr=3.93e-04
+    ✓ best checkpoint (val_loss=3.0421)
+  Epoch 007  train_loss=2.9699 train_acc=0.6246  val_loss=2.8886 val_acc=0.6438  lr=4.49e-04
+    ✓ best checkpoint (val_loss=2.8886)
+  Epoch 008  train_loss=2.7960 train_acc=0.6525  val_loss=2.7695 val_acc=0.6659  lr=5.05e-04
+    ✓ best checkpoint (val_loss=2.7695)
+  Epoch 009  train_loss=2.6558 train_acc=0.6752  val_loss=2.7136 val_acc=0.6754  lr=5.61e-04
+    ✓ best checkpoint (val_loss=2.7136)
+  Epoch 010  train_loss=2.5436 train_acc=0.6927  val_loss=2.6830 val_acc=0.6785  lr=6.17e-04
+    ✓ best checkpoint (val_loss=2.6830)
+  Epoch 011  train_loss=2.4486 train_acc=0.7092  val_loss=2.6432 val_acc=0.6862  lr=6.73e-04
+    ✓ best checkpoint (val_loss=2.6432)
+  Epoch 012  train_loss=2.3692 train_acc=0.7228  val_loss=2.6366 val_acc=0.6890  lr=7.29e-04
+    ✓ best checkpoint (val_loss=2.6366)
+  Epoch 013  train_loss=2.3023 train_acc=0.7338  val_loss=2.6463 val_acc=0.6896  lr=7.85e-04
+  Epoch 014  train_loss=2.2407 train_acc=0.7446  val_loss=2.6385 val_acc=0.6898  lr=8.41e-04
+Computing test BLEU …
+It looks like you forgot to detokenize your test data, which may hurt your score.
+If you insist your data is detokenized, or don't care, you can suppress this message with the `force` parameter.
+  Test BLEU: 37.79

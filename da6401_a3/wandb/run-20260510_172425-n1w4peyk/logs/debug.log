@@ -1,0 +1,21 @@
+2026-05-10 17:24:25,536 INFO    MainThread:31852 [wandb_init.py:setup_run_log_directory():717] Logging user logs to D:\IITM\da6401_a3\wandb\run-20260510_172425-n1w4peyk\logs\debug.log
+2026-05-10 17:24:25,536 INFO    MainThread:31852 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to D:\IITM\da6401_a3\wandb\run-20260510_172425-n1w4peyk\logs\debug-internal.log
+2026-05-10 17:24:25,538 INFO    MainThread:31852 [wandb_init.py:init():844] calling init triggers
+2026-05-10 17:24:25,538 INFO    MainThread:31852 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'d_model': 256, 'N': 3, 'num_heads': 8, 'd_ff': 512, 'dropout': 0.1, 'batch_size': 128, 'num_epochs': 15, 'warmup_steps': 4000, 'use_noam': True, 'fixed_lr': 0.0001, 'label_smoothing': 0.1, 'use_scaling': True, 'use_learned_pos': False, '_wandb': {}}
+2026-05-10 17:24:25,553 INFO    MainThread:31852 [wandb_init.py:init():892] starting backend
+2026-05-10 17:24:25,553 INFO    MainThread:31852 [wandb_init.py:init():895] sending inform_init request
+2026-05-10 17:24:25,556 INFO    MainThread:31852 [wandb_init.py:init():903] backend started and connected
+2026-05-10 17:24:25,557 INFO    MainThread:31852 [wandb_init.py:init():973] updated telemetry
+2026-05-10 17:24:25,559 INFO    MainThread:31852 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-05-10 17:24:27,892 INFO    MainThread:31852 [wandb_init.py:init():1042] starting run threads in backend
+2026-05-10 17:24:28,087 INFO    MainThread:31852 [wandb_run.py:_console_start():2524] atexit reg
+2026-05-10 17:24:28,087 INFO    MainThread:31852 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-05-10 17:24:28,088 INFO    MainThread:31852 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-05-10 17:24:28,089 INFO    MainThread:31852 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-05-10 17:24:28,090 INFO    MainThread:31852 [wandb_init.py:init():1082] run started, returning control to user process
+2026-05-10 17:28:13,617 INFO    MainThread:31852 [wandb_run.py:_finish():2291] finishing run saisvanik2121-iitm-india/da6401-a3/n1w4peyk
+2026-05-10 17:28:13,618 INFO    MainThread:31852 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-05-10 17:28:13,619 INFO    MainThread:31852 [wandb_run.py:_restore():2472] restore
+2026-05-10 17:28:13,619 INFO    MainThread:31852 [wandb_run.py:_restore():2478] restore done
+2026-05-10 17:28:19,094 INFO    MainThread:31852 [wandb_run.py:_footer_sync_info():3868] logging synced files
