@@ -17,6 +17,7 @@ AUTOGRADER CONTRACT (DO NOT MODIFY SIGNATURES):
 import math
 import copy
 import os
+import sys
 from typing import Optional, Tuple
 
 import torch
@@ -343,14 +344,14 @@ class Transformer(nn.Module):
             self.spacy_de = spacy.load("de_core_news_sm")
         except OSError:
             import subprocess
-            subprocess.run(["python", "-m", "spacy", "download", "de_core_news_sm"])
+            subprocess.run([sys.executable, "-m", "spacy", "download", "de_core_news_sm"])
             self.spacy_de = spacy.load("de_core_news_sm")
 
         try:
             self.spacy_en = spacy.load("en_core_web_sm")
         except OSError:
             import subprocess
-            subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+            subprocess.run([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
             self.spacy_en = spacy.load("en_core_web_sm")
 
     def infer(self, german_sentence: str) -> str:
