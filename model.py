@@ -265,18 +265,18 @@ class Transformer(nn.Module):
     """
     Full Encoder-Decoder Transformer for sequence-to-sequence tasks.
     """
-    def __init__(
+    def _init_(
         self,
         src_vocab_size: int = 10000,
         tgt_vocab_size: int = 10000,
-        d_model: int = 512,
-        N: int = 6,
+        d_model: int = 256,       # <-- CHANGED FROM 512
+        N: int = 3,               # <-- CHANGED FROM 6
         num_heads: int = 8,
-        d_ff: int = 2048,
+        d_ff: int = 512,          # <-- CHANGED FROM 2048
         dropout: float = 0.1,
-        inference_mode: bool = True,  # Ensures it's self-contained for autograder
+        inference_mode: bool = True,  
     ) -> None:
-        super().__init__()
+        super()._init_()
 
         self.src_embedding = nn.Embedding(src_vocab_size, d_model)
         self.tgt_embedding = nn.Embedding(tgt_vocab_size, d_model)
