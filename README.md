@@ -1,5 +1,9 @@
 # DA6401 Assignment 3 — Transformer for Machine Translation
 
+Report Link: https://api.wandb.ai/links/saisvanik2121-iitm-india/dcyj3sx9
+
+Github link: https://github.com/Svanik277373/da6401_a3
+
 ## Setup
 
 ```bash
